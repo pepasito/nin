@@ -3,7 +3,10 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "animation": "*"
+        "animation": "*",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "radio-broadcast": "*"
     },
     "files": [
         "main.blocks",
@@ -12,7 +15,9 @@
         "assets.json",
         "images.g.jres",
         "images.g.ts",
-        "main.py"
+        "main.py",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"
