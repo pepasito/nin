@@ -13,6 +13,8 @@ namespace SpriteKind {
     export const embrion = SpriteKind.create()
     export const cura = SpriteKind.create()
 }
+/**
+ */
 function barradevidas () {
     barradevida = image.create(20, 3)
     ojeto = sprites.create(barradevida, SpriteKind.rsuth)
